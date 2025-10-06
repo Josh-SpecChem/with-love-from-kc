@@ -291,7 +291,7 @@ export default function SizeGuidePage() {
             {hatSizes.map((size, index) => (
               <Card key={index} className="hover:shadow-md transition-shadow">
                 <CardContent className="p-6 text-center">
-                  <Hat className="h-8 w-8 text-love-pink mx-auto mb-3" />
+                  <Crown className="h-8 w-8 text-love-pink mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">{size.size}</h3>
                   <p className="text-sm text-muted-foreground mb-2">{size.circumference}</p>
                   <p className="text-xs text-muted-foreground">{size.description}</p>
