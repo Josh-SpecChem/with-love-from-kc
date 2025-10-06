@@ -76,43 +76,9 @@ export function Header() {
               </div>
             </Link>
 
-            {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center space-x-8">
-              {navigationItems.map((item) => (
-                <div key={item.label} className="relative group">
-                  {item.children ? (
-                    <>
-                      <Link
-                        href={item.href}
-                        className="flex items-center space-x-1 text-sm font-medium text-black hover:text-primary-pink transition-colors duration-200 uppercase tracking-wide"
-                      >
-                        <span>{item.label}</span>
-                        <ChevronDown className="h-3 w-3" />
-                      </Link>
-                      <div className="absolute top-full left-0 mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                        <div className="p-4 space-y-2">
-                          {item.children.map((child) => (
-                            <Link
-                              key={child.label}
-                              href={child.href}
-                              className="block px-3 py-2 text-sm text-gray-700 hover:text-primary-pink hover:bg-gray-50 rounded-md transition-colors duration-200"
-                            >
-                              {child.label}
-                            </Link>
-                          ))}
-                        </div>
-                      </div>
-                    </>
-                  ) : (
-                    <Link
-                      href={item.href}
-                      className="text-sm font-medium text-black hover:text-primary-pink transition-colors duration-200 uppercase tracking-wide"
-                    >
-                      {item.label}
-                    </Link>
-                  )}
-                </div>
-              ))}
+            {/* Desktop Navigation - Hidden on all screen sizes */}
+            <nav className="hidden">
+              {/* Desktop navigation is now hidden on all screen sizes */}
             </nav>
 
             {/* Right side actions */}
@@ -140,7 +106,7 @@ export function Header() {
                     variant="ghost"
                     size="sm"
                     onClick={() => setIsSearchOpen(true)}
-                    className="hidden sm:flex text-black hover:text-primary-pink"
+                    className="text-black hover:text-primary-pink"
                   >
                     <Search className="h-4 w-4" />
                   </Button>
@@ -166,10 +132,10 @@ export function Header() {
                 </Link>
               </Button>
 
-              {/* Mobile menu */}
+              {/* Mobile menu - Now shown on all screen sizes */}
               <Sheet>
                 <SheetTrigger asChild>
-                  <Button variant="ghost" size="sm" className="lg:hidden text-black hover:text-primary-pink">
+                  <Button variant="ghost" size="sm" className="text-black hover:text-primary-pink">
                     <Menu className="h-4 w-4" />
                   </Button>
                 </SheetTrigger>
