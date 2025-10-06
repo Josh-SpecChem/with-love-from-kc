@@ -48,7 +48,7 @@ const instagramPosts: InstagramPost[] = [
   {
     id: "customer-testimonial-mug",
     caption: "Customer love! 💕 Sarah from Overland Park sent us this amazing photo with her KC Pride Mug. This is why we do what we do! #CustomerLove #KCPride #Testimonial #MadeWithLoveKC",
-    media_urls: ["/images/instagram/posts/customer-mug.svg"],
+    media_urls: ["/images/instagram/posts/customer-mug.svg", "/images/team/social-media-headshot-1.jpg"],
     hashtags: ["CustomerLove", "KCPride", "Testimonial", "MadeWithLoveKC"],
     engagement_metrics: {
       likes: 67,
@@ -132,13 +132,37 @@ const instagramPosts: InstagramPost[] = [
   {
     id: "customer-wedding-favors",
     caption: "Custom KC wedding favors for the perfect Kansas City wedding! 💒 These personalized favors were a hit at Sarah & Mike's KC wedding. #KCWedding #WeddingFavors #Custom #KansasCity #MadeWithLoveKC",
-    media_urls: ["/images/placeholders/product-placeholder.svg"],
+    media_urls: ["/images/placeholders/product-placeholder.svg", "/images/team/social-media-headshot-3.jpg"],
     hashtags: ["KCWedding", "WeddingFavors", "Custom", "KansasCity", "MadeWithLoveKC"],
     engagement_metrics: {
       likes: 112,
       comments: 22,
     },
     post_date: "2024-01-01T15:20:00Z",
+    category: "testimonial"
+  },
+  {
+    id: "customer-hoodie-testimonial",
+    caption: "Amazing feedback from our KC family! 💙 This customer absolutely loves their new KC Skyline Hoodie. Nothing beats seeing our community rock our designs! #CustomerLove #KCHoodie #Testimonial #MadeWithLoveKC",
+    media_urls: ["/images/team/social-media-headshot-1.jpg"],
+    hashtags: ["CustomerLove", "KCHoodie", "Testimonial", "MadeWithLoveKC"],
+    engagement_metrics: {
+      likes: 89,
+      comments: 15,
+    },
+    post_date: "2023-12-30T14:30:00Z",
+    category: "testimonial"
+  },
+  {
+    id: "customer-art-print-review",
+    caption: "Customer spotlight! ✨ This amazing KC local shared their new art print setup. We love seeing how our pieces become part of your home! #CustomerSpotlight #KCArt #HomeDecor #MadeWithLoveKC",
+    media_urls: ["/images/team/social-media-headshot-3.jpg"],
+    hashtags: ["CustomerSpotlight", "KCArt", "HomeDecor", "MadeWithLoveKC"],
+    engagement_metrics: {
+      likes: 76,
+      comments: 12,
+    },
+    post_date: "2023-12-27T11:45:00Z",
     category: "testimonial"
   },
   {

@@ -1,0 +1,184 @@
+{
+  "generatedAt": "2025-10-06T15:32:23.881Z",
+  "totalImages": 27,
+  "categories": {
+    "apparel": [
+      {
+        "type": "hoodie",
+        "images": [
+          {
+            "filename": "hoodie-1.jpg",
+            "relativePath": "/images/apparel/hoodie-1.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "hoodie-2.jpg",
+            "relativePath": "/images/apparel/hoodie-2.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "hoodie-3.jpg",
+            "relativePath": "/images/apparel/hoodie-3.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "hoodie-4.jpg",
+            "relativePath": "/images/apparel/hoodie-4.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "hoodie-5.jpg",
+            "relativePath": "/images/apparel/hoodie-5.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&h=800&fit=crop&crop=center"
+          }
+        ]
+      },
+      {
+        "type": "t-shirt",
+        "images": [
+          {
+            "filename": "t-shirt-1.jpg",
+            "relativePath": "/images/apparel/t-shirt-1.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "t-shirt-3.jpg",
+            "relativePath": "/images/apparel/t-shirt-3.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "t-shirt-5.jpg",
+            "relativePath": "/images/apparel/t-shirt-5.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop&crop=center"
+          }
+        ]
+      },
+      {
+        "type": "baseball-cap",
+        "images": [
+          {
+            "filename": "baseball-cap-1.jpg",
+            "relativePath": "/images/apparel/baseball-cap-1.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "baseball-cap-2.jpg",
+            "relativePath": "/images/apparel/baseball-cap-2.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "baseball-cap-3.jpg",
+            "relativePath": "/images/apparel/baseball-cap-3.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "baseball-cap-4.jpg",
+            "relativePath": "/images/apparel/baseball-cap-4.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "baseball-cap-5.jpg",
+            "relativePath": "/images/apparel/baseball-cap-5.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&h=800&fit=crop&crop=center"
+          }
+        ]
+      }
+    ],
+    "accessories": [
+      {
+        "type": "mug",
+        "images": [
+          {
+            "filename": "mug-2.jpg",
+            "relativePath": "/images/accessories/mug-2.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "mug-4.jpg",
+            "relativePath": "/images/accessories/mug-4.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&h=800&fit=crop&crop=center"
+          }
+        ]
+      },
+      {
+        "type": "coaster",
+        "images": [
+          {
+            "filename": "coaster-1.jpg",
+            "relativePath": "/images/accessories/coaster-1.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "coaster-2.jpg",
+            "relativePath": "/images/accessories/coaster-2.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "coaster-3.jpg",
+            "relativePath": "/images/accessories/coaster-3.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "coaster-4.jpg",
+            "relativePath": "/images/accessories/coaster-4.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "coaster-5.jpg",
+            "relativePath": "/images/accessories/coaster-5.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=800&fit=crop&crop=center"
+          }
+        ]
+      }
+    ],
+    "home": [
+      {
+        "type": "art-print",
+        "images": [
+          {
+            "filename": "art-print-1.jpg",
+            "relativePath": "/images/home/art-print-1.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "art-print-2.jpg",
+            "relativePath": "/images/home/art-print-2.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "art-print-3.jpg",
+            "relativePath": "/images/home/art-print-3.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "art-print-4.jpg",
+            "relativePath": "/images/home/art-print-4.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "art-print-5.jpg",
+            "relativePath": "/images/home/art-print-5.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=800&fit=crop&crop=center"
+          }
+        ]
+      }
+    ],
+    "team": [
+      {
+        "type": "social-media-headshot",
+        "images": [
+          {
+            "filename": "social-media-headshot-1.jpg",
+            "relativePath": "/images/team/social-media-headshot-1.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=800&fit=crop&crop=center"
+          },
+          {
+            "filename": "social-media-headshot-3.jpg",
+            "relativePath": "/images/team/social-media-headshot-3.jpg",
+            "originalUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&h=800&fit=crop&crop=center"
+          }
+        ]
+      }
+    ]
+  }
+}
