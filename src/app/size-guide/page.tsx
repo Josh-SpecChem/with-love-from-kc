@@ -3,7 +3,7 @@
 import { 
   Ruler, 
   Shirt, 
-  Hat, 
+  Crown, 
   Coffee, 
   Heart,
   CheckCircle,
@@ -120,7 +120,7 @@ export default function SizeGuidePage() {
     {
       tip: "Head Circumference",
       instruction: "Measure around your head about 1 inch above your eyebrows",
-      icon: Hat
+      icon: Crown
     },
     {
       tip: "Length Measurement",
@@ -161,7 +161,7 @@ export default function SizeGuidePage() {
         "Curved bill",
         "Embroidered KC designs"
       ],
-      icon: Hat
+      icon: Crown
     },
     {
       category: "Mugs",
