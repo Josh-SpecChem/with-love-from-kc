@@ -6,17 +6,17 @@ import { Button } from "@/components/ui/button";
 import { ProductCard } from "./ProductCard";
 import { Product } from "@/types";
 
-// Mock featured products data
+// Featured products data using our new optimized images
 const featuredProducts: Product[] = [
   {
-    id: "kc-skyline-hoodie",
-    name: "KC Skyline Hoodie",
-    description: "Comfortable hoodie featuring the iconic Kansas City skyline. Perfect for showing your KC pride in style.",
-    price: 45,
-    originalPrice: 55,
-    images: ["/images/products/apparel/kc-skyline-hoodie.svg"],
+    id: "kc-skyline-cream-hoodie",
+    name: "KC Skyline Cream Hoodie",
+    description: "Elegant cream hoodie featuring our beautiful KC skyline design! Perfect for those cooler KC days. Soft, warm, and oh-so-comfortable!",
+    price: 69.99,
+    originalPrice: 79.99,
+    images: ["/images/apparel/kc-skyline-cream-hoodie.webp"],
     category: "apparel",
-    tags: ["hoodie", "skyline", "KC pride", "comfortable"],
+    tags: ["hoodie", "skyline", "cream", "KC pride", "comfortable"],
     availability: "available",
     rating: 4.9,
     reviewCount: 127,
@@ -25,13 +25,13 @@ const featuredProducts: Product[] = [
     updatedAt: "2024-01-15T10:00:00Z"
   },
   {
-    id: "kc-pride-mug",
-    name: "KC Pride Mug",
-    description: "Handcrafted ceramic mug with beautiful Kansas City design. Perfect for your morning coffee.",
-    price: 18,
-    images: ["/images/products/accessories/kc-pride-mug.svg"],
+    id: "kc-skyline-coasters",
+    name: "KC Skyline Coasters Set",
+    description: "Protect your surfaces in style with these beautiful KC skyline coasters! Set of 4 cork-backed coasters featuring different KC designs.",
+    price: 24.99,
+    images: ["/images/accessories/kc-skyline-coasters.webp"],
     category: "accessories",
-    tags: ["mug", "ceramic", "KC pride", "coffee"],
+    tags: ["coasters", "cork", "KC pride", "home"],
     availability: "available",
     rating: 4.8,
     reviewCount: 89,
@@ -40,13 +40,13 @@ const featuredProducts: Product[] = [
     updatedAt: "2024-01-10T10:00:00Z"
   },
   {
-    id: "handmade-kc-art-print",
-    name: "Handmade KC Art Print",
-    description: "Beautiful hand-drawn art print celebrating Kansas City landmarks. Perfect for home decor.",
-    price: 25,
-    images: ["/images/products/accessories/kc-art-print.svg"],
+    id: "kc-cityscape-throw-pillow",
+    name: "KC Cityscape Throw Pillow",
+    description: "Add a touch of KC to your home decor with this beautiful throw pillow! Features a watercolor-style KC skyline design.",
+    price: 45.99,
+    images: ["/images/home/kc-cityscape-throw-pillow.webp"],
     category: "home",
-    tags: ["art", "print", "landmarks", "home decor"],
+    tags: ["pillow", "home decor", "watercolor", "skyline"],
     availability: "available",
     rating: 4.7,
     reviewCount: 56,
@@ -55,18 +55,17 @@ const featuredProducts: Product[] = [
     updatedAt: "2024-01-12T10:00:00Z"
   },
   {
-    id: "custom-royals-gear",
-    name: "Custom Royals Gear",
-    description: "Personalized Kansas City Royals merchandise. Show your team spirit with custom designs.",
-    price: 35,
-    images: ["/images/products/custom/custom-royals-gear.svg"],
-    category: "custom",
-    tags: ["Royals", "custom", "sports", "personalized"],
+    id: "kc-skyline-keychain",
+    name: "KC Skyline Keychain",
+    description: "Keep KC close to your heart with this beautiful acrylic keychain! Features the KC skyline with a cute pink heart charm.",
+    price: 12.99,
+    images: ["/images/accessories/kc-skyline-keychain.webp"],
+    category: "accessories",
+    tags: ["keychain", "acrylic", "heart", "KC pride"],
     availability: "available",
     rating: 5.0,
     reviewCount: 34,
     featured: true,
-    custom: true,
     createdAt: "2024-01-08T10:00:00Z",
     updatedAt: "2024-01-08T10:00:00Z"
   }
