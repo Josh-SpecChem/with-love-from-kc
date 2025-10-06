@@ -28,53 +28,63 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-kc-blue/10 via-white to-love-pink/10 overflow-hidden">
-        {/* Background Elements */}
-        <div className="absolute inset-0 bg-[url('/images/kc-skyline.svg')] bg-no-repeat bg-center bg-cover opacity-5"></div>
-        <div className="absolute top-20 left-10 animate-bounce-gentle">
-          <Heart className="h-8 w-8 text-love-pink/30" />
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        {/* Hero Background Image */}
+        <div className="absolute inset-0">
+          <img 
+            src="/images/hero.png" 
+            alt="Kansas City Skyline - Made With Love KC" 
+            className="w-full h-full object-cover"
+          />
+          {/* Overlay for better text readability */}
+          <div className="absolute inset-0 bg-black/20"></div>
         </div>
-        <div className="absolute top-40 right-20 animate-bounce-gentle delay-300">
-          <Heart className="h-6 w-6 text-kc-red/30" />
+        
+        {/* Floating Hearts */}
+        <div className="absolute top-20 left-10 animate-bounce-gentle z-10">
+          <Heart className="h-8 w-8 text-love-pink/60 drop-shadow-lg" />
         </div>
-        <div className="absolute bottom-20 left-20 animate-bounce-gentle delay-500">
-          <Heart className="h-10 w-10 text-kc-blue/30" />
+        <div className="absolute top-40 right-20 animate-bounce-gentle delay-300 z-10">
+          <Heart className="h-6 w-6 text-kc-red/60 drop-shadow-lg" />
+        </div>
+        <div className="absolute bottom-20 left-20 animate-bounce-gentle delay-500 z-10">
+          <Heart className="h-10 w-10 text-kc-blue/60 drop-shadow-lg" />
         </div>
         
         <div className="text-center max-w-4xl mx-auto px-4 relative z-10">
           <div className="flex items-center justify-center mb-6">
-            <Heart className="h-12 w-12 text-kc-red mr-3 heart-pulse" />
-            <h1 className="text-5xl md:text-7xl font-heading font-bold text-foreground">
+            <Heart className="h-12 w-12 text-white mr-3 heart-pulse drop-shadow-lg" />
+            <h1 className="text-5xl md:text-7xl font-heading font-bold text-white drop-shadow-lg">
               Made With Love
             </h1>
           </div>
-          <h2 className="text-2xl md:text-3xl font-heading text-kc-blue mb-6">
+          <h2 className="text-2xl md:text-3xl font-heading text-white/90 mb-6 drop-shadow-lg">
             Kansas City
           </h2>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow-lg">
             Discover unique KC-inspired goods that celebrate our amazing city. 
             Every item is handmade with love and supports our local community.
           </p>
           
           {/* Trust Indicator */}
-          <div className="flex items-center justify-center mb-8 text-sm text-muted-foreground">
-            <Users className="h-4 w-4 mr-2" />
+          <div className="flex items-center justify-center mb-8 text-sm text-white/80">
+            <Users className="h-4 w-4 mr-2 drop-shadow-lg" />
             <span>2,847+ happy customers</span>
             <div className="flex items-center ml-4">
               {[1, 2, 3, 4, 5].map((star) => (
-                <Star key={star} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                <Star key={star} className="h-4 w-4 fill-yellow-400 text-yellow-400 drop-shadow-lg" />
               ))}
               <span className="ml-2">4.9/5 rating</span>
             </div>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="btn-kc-primary text-lg px-8 py-6" asChild>
+            <Button size="lg" className="bg-white text-kc-blue hover:bg-gray-100 text-lg px-8 py-6 shadow-lg" asChild>
               <Link href="/products">
                 Shop KC Love
               </Link>
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-kc-blue text-kc-blue hover:bg-kc-blue hover:text-white" asChild>
+            <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-kc-blue shadow-lg" asChild>
               <Link href="/gallery">
                 View Gallery
               </Link>
