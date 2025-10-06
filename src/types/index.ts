@@ -14,6 +14,7 @@ export interface Product {
   reviewCount?: number;
   featured?: boolean;
   custom?: boolean;
+  sizes?: string[];
   createdAt: string;
   updatedAt: string;
 }

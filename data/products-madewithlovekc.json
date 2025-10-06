@@ -17,7 +17,8 @@
       "/images/apparel/kc-parking-cap-hoodie.webp"
     ],
     "instagram_post_id": "post_001",
-    "is_available": true
+    "is_available": true,
+    "sizes": ["S", "M", "L", "XL", "XXL"]
   },
   {
     "id": "matching-loungewear-set",
@@ -36,7 +37,8 @@
       "/images/apparel/matching-loungewear-set.webp"
     ],
     "instagram_post_id": "post_002",
-    "is_available": true
+    "is_available": true,
+    "sizes": ["S", "M", "L", "XL"]
   },
   {
     "id": "kc-skyline-t-shirt",
@@ -55,7 +57,8 @@
       "/images/apparel/cityscape-t-shirt.webp"
     ],
     "instagram_post_id": "post_003",
-    "is_available": true
+    "is_available": true,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
   },
   {
     "id": "kc-love-pink-tee",
@@ -112,7 +115,8 @@
       "/images/apparel/kc-skyline-cream-hoodie.webp"
     ],
     "instagram_post_id": "post_006",
-    "is_available": true
+    "is_available": true,
+    "sizes": ["S", "M", "L", "XL", "XXL"]
   },
   {
     "id": "kc-skyline-coasters",
