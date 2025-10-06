@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Product",
+    "description": "New KC skyline hoodies just dropped! 🏙️✨ Perfect for showing your KC pride. Available in multiple colors and sizes. DM to order! #KansasCity #KCpride #localbusiness #madewithlovekc",
+    "category": "apparel",
+    "tags": [
+      "kansascity",
+      "kcpride",
+      "localbusiness",
+      "madewithlovekc",
+      "hoodie",
+      "skyline"
+    ],
+    "images": [
+      "/images/products/apparel/kc-skyline-hoodie-1.svg",
+      "/images/products/apparel/kc-skyline-hoodie-2.svg"
+    ],
+    "instagram_post_id": "post_001",
+    "is_available": true
+  },
+  {
+    "name": "Product",
+    "description": "New arrivals! 🌟 KC-themed stickers, magnets, and keychains now available! Perfect for adding a little KC love to your everyday items. Shop link in bio! #newarrivals #kansascity #stickers #magnets #keychains #madewithlovekc",
+    "category": "accessories",
+    "tags": [
+      "newarrivals",
+      "kansascity",
+      "stickers",
+      "magnets",
+      "keychains",
+      "madewithlovekc"
+    ],
+    "images": [
+      "/images/products/accessories/new-arrivals-accessories.svg"
+    ],
+    "instagram_post_id": "post_005",
+    "is_available": true
+  },
+  {
+    "name": "Product",
+    "description": "Custom KC Royals gear! ⚾️ Just finished this custom Royals-themed design for a customer. Nothing beats KC sports pride! Available for Chiefs, Sporting KC, and Royals fans. #kcroyals #kansascity #customdesign #sports #madewithlovekc",
+    "category": "general",
+    "tags": [
+      "kcroyals",
+      "kansascity",
+      "customdesign",
+      "sports",
+      "madewithlovekc",
+      "chiefs"
+    ],
+    "images": [
+      "/images/products/custom/custom-royals-gear.svg"
+    ],
+    "instagram_post_id": "post_007",
+    "is_available": true
+  }
+]
