@@ -137,3 +137,4 @@ VALUES ('With Love from KC', 'withlovefromkc', 'Kansas City inspired products an
 ON CONFLICT (instagram_handle) DO NOTHING;
 
 
+

@@ -119,3 +119,4 @@ async function getAllImageFiles() {
 
 // Run verification
 verifyAllImages().catch(console.error);
+

@@ -32,7 +32,7 @@ export default function Home() {
         {/* Hero Background Image */}
         <div className="absolute inset-0">
           <img 
-            src="/images/hero.png" 
+            src="/images/hero.webp" 
             alt="Kansas City Skyline - Made With Love KC" 
             className="w-full h-full object-cover"
           />
@@ -84,7 +84,7 @@ export default function Home() {
                 Shop KC Love
               </Link>
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-kc-blue shadow-lg" asChild>
+            <Button size="lg" variant="outline" className="text-lg px-8 py-6 text-kc-blue border-white text-white hover:bg-white hover:text-kc-blue shadow-lg" asChild>
               <Link href="/gallery">
                 View Gallery
               </Link>
